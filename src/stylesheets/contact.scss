@@ -1,0 +1,24 @@
+@import 'global';
+main {
+    margin-top: -1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    // border-bottom:1px solid $primary;
+
+}
+
+.short-border {
+    display: flex;
+    justify-content:center;
+    width: 20rem;
+    border-top: 1px solid $primary;
+    padding: 1rem;
+}
+i {
+    font-size: 2rem;
+    color: $primary;
+    margin: .5rem .5rem 1rem;
+ }

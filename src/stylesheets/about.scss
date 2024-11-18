@@ -1,0 +1,19 @@
+@import 'global';
+main {
+    margin-top:-1rem;
+}
+img {
+    width: 18.75rem;
+    height: 18.75rem;
+    border-radius: 9.375rem;
+}
+i {
+    font-size: 4rem;
+    color: $light;
+    margin: .5rem 3rem 1rem;
+ }
+
+blockquote.large {
+    font-size: 1.5rem;
+    margin: 1rem 0 2.5rem;
+}
