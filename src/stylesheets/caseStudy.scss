@@ -1,11 +1,16 @@
 @import 'global';
 .hero-1{
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
     background: url("../images/car(dark).jpg") no-repeat center center; 
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
+}
+.btn {
+    margin-bottom: 2.5rem;
 }
 
 // .container-fluid {

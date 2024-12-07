@@ -12,10 +12,18 @@ main {
 .height {
     height: 100vh;
 }
+.btn {
+    margin-bottom: 2rem;
+}
+// .btn:visited {
+//     align-items: center;
+// }
 
 .hero{
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
     background: url("../images/arcade-1(dark).jpg") no-repeat center center; 
     background-size: cover;
     margin-left: auto;
@@ -23,7 +31,9 @@ main {
 }
 .hero-1{
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
     background: url("../images/arcade-2(dark).jpg") no-repeat center center; 
     background-size: cover;
     margin-left: auto;
@@ -31,7 +41,9 @@ main {
 }
 .hero-2{
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
     background: url("../images/tennis(dark).jpg") no-repeat center center; 
     background-size: cover;
     margin-left: auto;
@@ -39,7 +51,9 @@ main {
 }
 .hero-3{
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
     background: url("../images/dog-2(dark).jpg") no-repeat center center; 
     background-size: cover;
     margin-left: auto;
@@ -47,7 +61,9 @@ main {
 }
 .hero-4{
     display: flex;
+    flex-flow: column nowrap;
     justify-content: center;
+    align-items: center;
     background: url("../images/code(dark).jpg") no-repeat center center; 
     background-size: cover;
     margin-left: auto;
