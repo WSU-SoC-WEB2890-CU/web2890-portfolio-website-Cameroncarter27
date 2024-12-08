@@ -7,22 +7,163 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
   <meta name="description" content="TODO: Portfolio website ...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cambo&family=Libre+Baskerville&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="./stylesheets/main.scss">
 </head>
 
 <body>
-  <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
+  <header class="bg-primary">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Cameron Carter initials logo"
+            class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link active text-light fw-bold" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="projects.html">Project Gallery</a></li>
+                <li><a class="dropdown-item" href="project_2.html">Modern Arcade Guides (Design #1)</a></li>
+                <li><a class="dropdown-item" href="project_3.html">Modern Arcade Guides (Design #2)</a></li>
+                <li><a class="dropdown-item" href="project_4.html">Recreation of Tommy Haas Site</a></li>
+                <li><a class="dropdown-item" href="project_5.html">Sunset Animal Shelter</a></li>
+                <li><a class="dropdown-item" href="project_6.html">First Portfolio</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="caseStudy.html">Case Study</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="contact.html">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="grid">
+      <div class="text-center">
+        <h1 class="display-1 text-secondary text-center">Cameron Carter</h1>
+        <h3 class="text-secondary text-center">Web Developer and UX Designer</h3>
+        <a class="btn btn-light text-center my-4" href="about.html">About Me</a>
+        <a href="images/my-resume.pdf" download="newfilename" class="btn btn-outline-info my-4">Download My Resume</a>
+      </div>
+      
+    </div>
     
-    Portfolio Website
-  </h1>
+
+  </header>
+  <main>
+    <div class="container-fluid bg-light pb-5 mb-5 text-center">
+      <h2 id="projects" class="text-center pt-3">Projects</h2>
+      <p class="large">Check out a few of my recent projects below or head over to my project gallery to see a wider
+        display of my work!</p>
+      <a href="projects.html" class="btn btn-outline-primary mb-3">See More Projects</a>
+    </div>
+    <div class="container pb-5">
+      
+
+      <div class="row row-cols-lg-2 row-cols-1">
+        <div class="col mb-3">
+          <div class="card h-100">
+            <img src="images/car(cropped).jpg" class="card-img-top" alt="Car grill with visible damage">
+            <div class="card-body">
+              <h5 class="card-title">CarDeal Website</h5>
+              <a href="caseStudy.html" class="btn btn-outline-primary">Project Details</a>
+              <a href="https://gregarious-pegasus-290348.netlify.app/" class="btn btn-outline-primary">Visit Website</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <div class="card h-100">
+            <img src="images/arcade-2(cropped).jpg" class="card-img-top" alt="Colorful arcade">
+            <div class="card-body">
+              <h5 class="card-title">Modern Arcade Guides Website (Design #1)</h5>
+              <a href="project_3.html" class="btn btn-outline-primary">Project Details</a>
+              <a href="https://deluxe-nougat-16f57e.netlify.app/" class="btn btn-outline-primary">Visit Website</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-primary">
+      <h2 class="text-secondary text-center pt-3">My Main Languages</h2>
+      <div class="container d-flex flex-row justify-content-center">
+        <i class="bi bi-filetype-html"></i>
+        <i class="bi bi-filetype-css"></i>
+        <i class="bi bi-filetype-sass"></i>
+        <i class="bi bi-filetype-js"></i>
+      </div>
+    </div>
+
+  </main>
+  <footer class="bg-secondary ">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-4">
+
+          <div class="d-flex justify-content-center">
+            <div class="oval">
+              <img src="images/logo.svg" alt="" class="footer-logo">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-12 mt-4">
+          <nav>
+            <ul>
+              <li class="nav-item"><a href="index.html">Home</a></li>
+              <li class="nav-item"><a href="projects.html">Project Gallery</a></li>
+              <li class="nav-item"><a href="caseStudy.html">Case Study</a></li>
+              <li class="nav-item"><a href="about.html">About Me</a></li>
+              <li class="nav-item"><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-12 mt-4">
+          <h5>Contact</h5>
+          <ul>
+            <li>(801)389-3663</li>
+            <li>cameroncarter1@mail.weber.edu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="socials text-center">
+      <div>
+        <a href="https://www.instagram.com/utahempowermentinitiative/?igsh=MzJoYTBibjBvbjhk"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/people/Utah-Empowerment-Initiative/61560335434785/"><i
+            class="bi bi-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/cameron-carter-05ab7a253/"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
 
   <script type="module" src="./javascripts/main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,54 @@
+@import 'global';
+
+.card {
+    box-shadow: 4px 4px 7px rgb(176, 176, 176);
+    border-radius: 1rem;
+
+    & h5 {
+        color: $primary;
+    }
+}
+
+img {
+    border: 1px solid $primary;
+    // border-radius: 1.5rem;
+}
+
+
+
+.card-body {
+    & h5 {
+        display: none;
+    }
+    & a {
+        display: none;
+    }
+    
+}
+
+
+.card:active, .card:hover {
+    & .card-body h5 {
+        display: block;
+    }
+    & .card-body a {
+        display: inline;
+    }
+    
+}
+
+@media all and (max-width: 991px) {
+    .card-body {
+        & h5 {
+            display: block;
+        }
+        & a {
+            display: inline;
+        }
+        
+    }
+}
+
+
+
+

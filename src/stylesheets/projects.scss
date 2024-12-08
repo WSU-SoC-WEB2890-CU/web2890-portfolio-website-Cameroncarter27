@@ -1,0 +1,66 @@
+@import 'global';
+
+main {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.height {
+    height: 100vh;
+}
+.btn {
+    margin-bottom: 2rem;
+}
+
+.hero{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/arcade-1(dark).jpg") no-repeat center center; 
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-1{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/arcade-2(dark).jpg") no-repeat center center; 
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-2{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/tennis(dark).jpg") no-repeat center center; 
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-3{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/dog-2(dark).jpg") no-repeat center center; 
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-4{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/code(dark).jpg") no-repeat center center; 
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
