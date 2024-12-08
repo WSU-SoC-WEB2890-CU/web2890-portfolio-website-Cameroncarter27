@@ -1,5 +1,4 @@
 @import 'global';
-
 header {
     height: 100vh;
     
@@ -9,10 +8,9 @@ header {
         height: 100vh;
     }
 }
-main {
 
+main {
     & img {
-        // margin: .5rem 0;
         border: 1px solid $primary;
     }
     & i {
